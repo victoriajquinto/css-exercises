@@ -1,0 +1,14 @@
+button {
+    font-family: Helvetica, "Times New Roman", "san-serif";
+    font-size: 28px;
+    color: #000000
+}
+
+.clickme {
+    background-color: hsl(0,0%,0%);
+    color: hsl(0, 0%, 100%);
+}
+
+.noclickme {
+    background-color: hsl(60, 100%, 50%)
+}

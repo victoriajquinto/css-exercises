@@ -1,0 +1,17 @@
+.container .text{
+    background-color: yellow;
+    color: #FF0000;
+    font-size: 20px;
+    text-align: center;
+}
+div .pasta{
+    background-color: orange;
+    color: #00f;
+    font-size: 36px;
+    font-family: "Helvetica", sans-serif;
+}
+
+div .pjb{
+    color: #24680B;
+    font-size: 48px;
+}

@@ -1,0 +1,18 @@
+p {
+    background-color: rgb(226, 144, 138);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+div {
+    color: #0000FF;
+    font-size: 36px;
+}
+.classa {
+    background-color: rgb(226, 144, 138);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+    font-size: 24px
+}
+.classb {
+    background-color: #9bdbbd;
+    font-size: 24px;
+    font-weight: 500;
+}
