@@ -1,16 +1,63 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  
 }
 
 img {
   width: 100px;
   height: 100px;
+  max-width: 200px;
 }
 
 .title {
+  display: flex;
   font-size: 36px;
   font-weight: 900;
+  justify-content: center;
+  margin-bottom: 32px;
 }
+
+
+.grid {
+  display: flex;
+  gap: 52px;
+  justify-content: center;
+}
+
+.col1,
+.col2,
+.col3,
+.col4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 200px;
+}
+/*notes: making unique columns and turning the columns into flex containers was unnecessary. each column could have been a generic column class, and the contents could have stayed as block elements (rather than flex boxes) that would automatically stack on top of each other. */
+
+
+.text {
+  text-align: center;
+}
+
+/*
+.pic,
+.caption {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 52px;
+}
+.pic {
+
+}
+
+.caption {
+  text-align: center;
+  flex-wrap: wrap;
+
+}
+*/
 
 /* do not edit this footer */
 .footer {
